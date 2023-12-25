@@ -79,5 +79,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Laverna.Shamazov.HelperLibrary\Laverna.Shamazov.HelperLibrary.csproj">
+      <Project>{5E29FD94-6E50-4E9C-8B1B-B52BF70D3CCF}</Project>
+      <Name>Laverna.Shamazov.HelperLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

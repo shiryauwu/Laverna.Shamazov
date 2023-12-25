@@ -16,7 +16,7 @@ namespace Laverna.Shamazov.WeatherViewer
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new WeatherViewerForm());
         }
     }
 }
